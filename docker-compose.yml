@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+
+  javinha:
+    image: openjdk:8u171-jdk
+    volumes:
+      - /root/op2:/opt
+    command: bash -c "/opt/compilaroda.sh"
